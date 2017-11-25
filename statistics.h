@@ -6,21 +6,21 @@
  */
 
 #ifndef STATISTICS_H
-#define	STATISTICS_H
+#define STATISTICS_H
 
-#ifdef	__cplusplus
+#ifdef __cplusplus
 extern "C" {
 #endif
 
-    struct statistics {
-        double start_time;
-        double elapsed_time;
-    };
-    struct statistics statistics;
+  struct statistics {
+    double start_time;
+    double elapsed_time;
+  };
+  struct statistics statistics;
 
-#ifdef	__cplusplus
+#ifdef __cplusplus
 }
 #endif
 
-#endif	/* STATISTICS_H */
+#endif /* STATISTICS_H */
 
